@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity new
-public class funcionarioModel {
+public class FuncionarioModel {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -37,7 +37,7 @@ public class funcionarioModel {
         this.cpf = cpf;
     }
 
-    public funcionarioModel(){
+    public FuncionarioModel(){
 
 }
 
